@@ -14,7 +14,7 @@ var TheOtherShoes = (function() {
         // create child elements
         var ne = document.createElement('div');
         ne.id = 'notification';
-        ne.innerHTML = 'Our web is made possible by you blocking the ads on every website. Please consider supporting us by installing an ad blocker. <br><a href="https://github.com/gorhill/uBlock#installation" target="_blank">Get one now</a> <a onclick="TheOtherShoes.hideNotification()">Next time</a>'
+        ne.innerHTML = 'Our web is made possible by you (and everyone else) blocking the ads on every website. Please consider supporting us by installing an ad blocker. <br><a href="https://github.com/gorhill/uBlock#installation" target="_blank">Get one now for free</a> <a onclick="TheOtherShoes.hideNotification()">Next time</a>'
         e.appendChild(ne);
 
         document.body.appendChild(e);
