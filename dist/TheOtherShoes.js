@@ -22,10 +22,11 @@ var TheOtherShoes = (function() {
 
     var hideNotification = function() {
         document.getElementById("the-other-shoes-modal-dialog").style.display = 'none';
+        sessionStorage && (sessionStorage['TheOtherShoesNotificationDismissed'] = "1");
     }
 
     var run = function() {
-        if (!(isAdBlockerInstalled())) {
+        if (sessionStorage && sessionStorage['TheOtherShoesNotificationDismissed'] != 1 && !(isAdBlockerInstalled())) {
             showNotification();
         }
     }
