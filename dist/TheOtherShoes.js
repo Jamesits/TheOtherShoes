@@ -20,11 +20,11 @@ var TheOtherShoes = (function() {
         document.body.appendChild(e);
     };
 
-    var run = (function() {
-        if (!(this.isAdBlockerInstalled())) {
-            this.showNotification();
+    var run = function() {
+        if (!(isAdBlockerInstalled())) {
+            showNotification();
         }
-    }).bind(this);
+    }
 
     // exposed interfaces
     return {
