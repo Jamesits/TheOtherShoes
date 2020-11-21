@@ -23,7 +23,7 @@ Add these to the end of your HTML document, before `</body>`:
         });
     }
 })(function() {
-    TheOtherShoes().run();
+    TheOtherShoes.run();
 });
 </script>
 ```
