@@ -2,13 +2,16 @@
     position: fixed;
     left: 0;
     top: 0;
+    width: 100vw;
+    height: 100vh;
     z-index: 1145141919810;
     display: grid;
     place-items: center;
+    background-color: rgba(1, 1, 1, 0.5);
 }
 
 #the-other-shoes-modal-dialog > #notification {
-    margin-bottom: 30px;
+    margin: auto;
     padding: 20px 10px;
     background: #D30000;
     text-align: center;

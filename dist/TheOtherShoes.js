@@ -14,11 +14,15 @@ var TheOtherShoes = (function() {
         // create child elements
         var ne = document.createElement('div');
         ne.id = 'notification';
-        ne.innerText = 'Our web is made possible by you blocking the ads on every website. Please consider supporting us by installing an ad blocker.'
+        ne.innerHTML = 'Our web is made possible by you blocking the ads on every website. Please consider supporting us by installing an ad blocker. <br><a href="https://github.com/gorhill/uBlock#installation" target="_blank">Get one now</a> <a onclick="TheOtherShoes.hideNotification()">Next time</a>'
         e.appendChild(ne);
 
         document.body.appendChild(e);
     };
+
+    var hideNotification = function() {
+        document.getElementById("the-other-shoes-modal-dialog").style.display = 'none';
+    }
 
     var run = function() {
         if (!(isAdBlockerInstalled())) {
@@ -30,6 +34,7 @@ var TheOtherShoes = (function() {
     return {
         isAdBlockerInstalled: isAdBlockerInstalled,
         showNotification: showNotification,
+        hideNotification: hideNotification,
         run: run,
     };
 })();
