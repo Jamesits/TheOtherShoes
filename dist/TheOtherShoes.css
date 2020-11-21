@@ -19,3 +19,10 @@
     color: #fff;
     border-radius: 5px;
 }
+
+#the-other-shoes-modal-dialog > a {
+    display: inline-block;
+    color: unset;
+    text-decoration: underline;
+    margin: 8px 8px auto 8px;
+}
