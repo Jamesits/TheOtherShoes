@@ -8,7 +8,7 @@ Add these to the end of your HTML document, before `</body>`:
 
 ```html
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Jamesits/TheOtherShoes/dist/TheOtherShoes.css">
-<script src="https://cdn.jsdelivr.net/gh/Jamesits/TheOtherShoes/dist/xads.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/gh/Jamesits/TheOtherShoes/dist/xads.js?1=1&act=ads_&ad_block=1&view=ad&showad=1" type="text/javascript"></script>
 <script src="https://cdn.jsdelivr.net/gh/Jamesits/TheOtherShoes/dist/TheOtherShoes.js" type="text/javascript"></script>
 <script>
 (function ready(fn) {
