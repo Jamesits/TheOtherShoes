@@ -1,3 +1,4 @@
+/* https://github.com/Jamesits/TheOtherShoes */
 #the-other-shoes-modal-dialog {
     position: fixed;
     left: 0;
@@ -9,7 +10,6 @@
     place-items: center;
     background-color: rgba(1, 1, 1, 0.5);
 }
-
 #the-other-shoes-modal-dialog > #notification {
     margin: auto;
     padding: 20px 10px;
@@ -19,7 +19,6 @@
     color: #fff;
     border-radius: 5px;
 }
-
 #the-other-shoes-modal-dialog > a {
     display: inline-block;
     color: unset;
